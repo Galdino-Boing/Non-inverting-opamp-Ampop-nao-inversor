@@ -21,4 +21,5 @@ Em vez de precisar criar uma fonte de tensão específica, este circuito utiliza
 
 # Materiais  
 O circuito é projetado utilizando três resistores e um amplificador operacional 741, com o objetivo de inverter e amplificar o sinal de saída de forma eficiente.  
+
 A alimentação do CI 741 é fornecida com +12V na perna 7 e -12V na perna 4. A perna 3 do CI é conectada ao terra (ground). O sinal de entrada (input) é aplicado através de um resistor na entrada negativa de sinal do amplificador operacional (perna 2). Um resistor é então conectado entre a entrada negativa de sinal (perna 2) e a saída do amplificador operacional (perna 6), estabelecendo o ganho do circuito. Finalmente, outro resistor é conectado da saída (perna 6) ao terra, completando o circuito de feedback e ajustando o comportamento do amplificador inversor.
