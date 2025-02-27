@@ -21,6 +21,6 @@ Em vez de precisar criar uma fonte de tensão específica, este circuito utiliza
 - Circuitos de Comparação de Tensão
 
 # Materiais  
-O circuito é projetado utilizando três resistores e um amplificador operacional 741, com o objetivo de inverter e amplificar o sinal de saída de forma eficiente.  
+O circuito é projetado utilizando três resistores e um amplificador operacional 741, com o objetivo de não inverter e amplificar o sinal de saída de forma eficiente.  
 
 A alimentação do CI 741 é fornecida com +12V na perna 7 e -12V na perna 4. A perna 3 do CI é conectada ao sinal de entrada. Um resistor é conectado a perna 2 do ci e então conectado ao terra. Um resistor é então conectado entre a entrada negativa de sinal (perna 2) e a saída do amplificador operacional (perna 6), estabelecendo o ganho do circuito. Finalmente, outro resistor é conectado da saída (perna 6) ao terra, completando o circuito de feedback e ajustando o comportamento do amplificador não inversor.
